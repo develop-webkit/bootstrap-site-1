@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600&display=swap');
+
+body, html{
+	margin:0;
+	font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intel{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    font-size:1rem;
+}
+
+.navbar{
+    background-color: #FAFAFE;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#013E67;
+    font-size:.9rem;
+}
+
+.navbar-expand-lg .navbar-nav{
+    gap:20px;
+}
+
+h1{
+    color:#013E67;
+    font-weight: 600;
+}
+
+.btn-default{
+    background-color:#0CA7E4;
+    color:#fff;
+    border-radius:1.5rem;
+    font-size:.9rem;
+    line-height:1;
+    font-weight:500;
+    font-family: 'Inter', sans-serif;
+    padding:.6rem 1.2rem;
+}
+
+.hero-sec-left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1.sec{
+    background-color:#FAFAFE;
+    padding-bottom:12rem;
+}
+
+.section-3.sec{
+    padding-top:0;
+}
+
+.section-2.sec{
+    padding:1rem 0;
+    text-align:center;
+}
+
+.email-sec{
+    width:1000px;
+    margin:auto;
+    margin-top:-6rem;
+    margin-bottom:5rem;
+    background-image:url(../images/email-sec.png);
+    background-size:100% 100%;
+    padding:2rem;
+    color:#fff;
+    padding:2rem 10rem;
+    border-radius:1.5rem;
+}
+
+.email-sec p{
+  color:#fff;
+  font-size:1.5rem;
+  font-weight:600;
+  text-align:center;
+}
+
+.email-sec .input-group{
+  padding:.3rem;
+  padding-left:2rem;
+  background-color:#fff;
+  border-radius:2rem;
+}
+
+.email-sec .input-group .form-control{
+  border:0;
+  font-size:.7rem;
+  line-height:1;
+  color:#8394AE;
+}
+
+.email-sec .input-group .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#8394AE;
+    opacity: 1; /* Firefox */
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback):focus{
+    box-shadow:none;
+}
+
+.email-sec .input-group .form-control:focus{
+  box-shadow:none;
+}
+
+.email-sec .input-group{
+    position:relative;
+}
+
+.email-sec .input-group:before{
+    content: "";
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/mail-icon.png);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 9;
+    top: 1.1rem;
+    left: 1.5rem;
+}
+
+.steps-block{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    margin-top:3rem; 
+}
+
+.steps-block img{
+    width:5rem;
+}
+
+
+.section-4{
+    background-color:#FAFAFE;
+}
+
+.sec-4-row{
+    padding:4rem 0;
+}
+
+.sec-4-row p{
+    color:#3C4D58;
+}
+
+.section-5.sec{
+    padding-top:5rem;
+    padding-bottom:0;
+    background-color:#0B649F;
+    color:#fff;
+}
+
+.section-5 p{
+    color:#fff;
+}
+
+.contact-us-form{
+    padding-bottom:4rem;
+}
+
+.contact-us-form textarea.form-control{
+    height:171px;
+}
+
+.contact-us-form .form-select{
+    font-family: 'Inter', sans-serif;
+    height:55px;
+    font-size:.7rem;
+    border-radius:3px;
+}
+
+.contact-us-form .form-label {
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-us-form .form-check-label{
+    font-size: .8rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-us-form .form-control{
+    font-family: 'Inter', sans-serif;
+    height:55px;
+    font-size:.7rem;
+    border-radius:3px;
+}
+
+.contact-us-form{
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-us-form .btn-primary{
+    font-family: 'Inter', sans-serif;
+    border-radius:2px;
+    background-color:#00A3E2;
+    font-size:.7rem;
+    font-weight:500;
+    padding:.375rem 1.5rem;
+}
+
+.section-6.sec{
+    padding-bottom:0;
+    color:#fff;
+    background-color:#202F39;
+    font-family: 'Inter', sans-serif;
+}
+
+.hr-1{
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    background-color:#39505F;
+}
+
+.section-6 p{
+    color:#fff;
+    font-size:0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-6 h5{
+    font-size:1rem;
+}
+
+.footer-ul li{
+    margin-top:.5rem;
+    font-size:.9rem;
+}
+
+.footer-ul {
+    margin-top:1.5rem;
+}
+
+.footer-ul.footer-ul-first li{
+    padding-left:1.5rem;
+    position:relative;
+    margin-top:.5rem;
+}
+
+.footer-ul.footer-ul-first li:before{
+    content:"";
+    position: absolute;
+    width:1rem;
+    height:1rem;
+    display:block;
+    left: 0rem;
+    top: 0.3rem;
+    background-image:url(../images/footer-icon-1.png);
+    background-repeat: no-repeat;
+}
+
+.footer-ul.footer-ul-first li:nth-child(2):before{
+    background-image:url(../images/footer-icon-2.png);
+}
+
+.footer-ul.footer-ul-first img{
+    width:.8rem;
+    margin-right:1rem;
+}
+
+.section-6 p.footer-bottom{
+    text-align:center;
+    font-size:.8rem;
+}
+
+@media (min-width: 1140px) {
+    .section-4 .container{
+        max-width:920px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .email-sec{
+        width:auto;
+        padding: 2rem 5rem;
+        border-radius: 1.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-sec-left{
+        align-items: center;
+        text-align:center;
+        margin-bottom:2rem;
+    }
+
+    .img-lef-div-form{
+        order:2;
+    }
+
+    .section-6 h5{
+        margin-top:2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .email-sec{
+        width:auto;
+        padding: 1rem .5rem;
+        border-radius: 1.5rem;
+    }
+
+    .email-sec p{
+        font-size:1rem;
+    }
+
+    .img-left-div{
+        order:2;
+    }
+
+    .sec-4-row{
+        padding:2rem 0;
+        text-align:center;
+    }
+
+    .sec-4-row img.m-auto{
+        margin-top:3rem!important;
+    }
+}
+
+/* responsive */
+
+@media (min-width: 1440px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+		width: 1420px;
+	}
+}
+
+@media (max-width: 767px) {
+	html,body{
+		font-size: 15px;
+	}
+}
+
+.color-white{
+    color:#fff;
+}
+
+a,
+a:hover {
+  color: #fff;
+}
+
+.fw-semi-bold{
+    font-weight: 600;
+}
+
+p{
+    color:#5A6370;
+}
+
+ul, ol{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+input:focus, button:focus, textarea:focus,select:focus{
+	outline: 0;
+	box-shadow: none;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.sec{
+    padding: 4rem 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.line-height-1{
+    line-height: 1;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0rem;
+}
+
+.margin-bottom-7{
+    margin-bottom: .7rem;
+}
+
+.margin-left-5{
+    margin-left:5px;
+}
+
+.margin-top-0{
+    margin-top: 0rem;
+}
+
+.margin-top-5{
+    margin-top: .5rem;
+}
+
+.margin-top-10{
+    margin-top: 1rem;
+}
+
+.margin-top-20{
+    margin-top: 2rem;
+}
+
+.margin-top-30{
+    margin-top: 3rem;
+}
+
+.margin-top-40{
+    margin-top: 4rem;
+}
+
+.margin-top-50{
+    margin-top: 5rem;
+}
+
+.margin-top-60{
+    margin-top: 6rem;
+}
+
+.margin-top-70{
+    margin-top: 7rem;
+}
+
+.margin-top-80{
+    margin-top: 8rem;
+}
+
+.margin-top-90{
+    margin-top: 9rem;
+}
+
+.margin-top-100{
+    margin-top: 10rem;
+}
+
+.margin-top-110{
+    margin-top: 1.1rem;
+}
+
+.margin-top-120{
+    margin-top: 1.2rem;
+}
+
+.size-5{
+    font-size: .5rem;
+}
+
+.size-7{
+    font-size: .7rem;
+}
+
+.size-8{
+    font-size: .8rem;
+}
+
+.size-9{
+    font-size: .9rem;
+}
+
+.size-10{
+    font-size: 1rem;
+}
+
+.size-15{
+    font-size: 1.5rem;
+}
+
+.size-18{
+    font-size: 1.8rem;
+}
+
+.size-20{
+    font-size: 2rem;
+}
+
+.size-25{
+    font-size: 2.5rem;
+}
+
+.size-30{
+    font-size: 3rem;
+}
+
+.size-40{
+    font-size: 4rem;
+}
+
+.size-50{
+    font-size: 5rem;
+}
+
+.size-50{
+    font-size: 5rem;
+}
+
+.size-60{
+    font-size: 6rem;
+}
+
+.size-70{
+    font-size: 7rem;
+}
+
+.size-80{
+    font-size: 8rem;
+}
+
+.size-90{
+    font-size: 9rem;
+}
+
+.padding-0{
+    padding-left:0;
+    padding-right:0;
+}
